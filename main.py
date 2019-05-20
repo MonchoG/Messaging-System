@@ -297,7 +297,7 @@ def formated_print(results):
 hst='localhost'
 db_name="messaging_system"
 usr='root'
-passwd='151320miro'
+passwd=''
 
 database, cursor = create_connector(host=hst, database=db_name, user=usr,password=passwd)
 
